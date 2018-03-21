@@ -1,6 +1,6 @@
-# PDSB-Project
+# PDSB-Project Proposal
 ## Neha Savant
-## March 21, 2018
+#### March 21, 2018
 
 
 Many people in the landscape and population genetic field use cluster analysis and genetic distance metrics to analyze genetic structure in different species, but many are also interested in visualizing this structure. Further, scientists are also interested in taking genetic data from known locations and extending this information to other parts of the landscape that they were not able to sample. Creating a resistance map from interpolated genetic data will be of particular interest for those who want to take their genomic data and create useful figures to communicate their research findings. 
