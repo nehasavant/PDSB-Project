@@ -12,12 +12,12 @@ I will be using ddRAD sequencing data (protocol from Peterson et al. 2012) from 
 I plan to use a suite of tools in Python and R. I am open to using other tools I find as I move forward with this project, but will start with the following methodology:
 
 1. Use [ipyrad] to filter the RAD reads. I may also start with structure files outputed from Stacks. 
-2. Run the cluster analysis using STRUCTURE (Pritchard et al. 2000) on several different K values. Then determine a useful K value for the rest of the analysis. 
-3. Use [CLUMMP] in R to estimate admixture coefficients (Jakobsson & Rosenberg 2007)
+2. Run the cluster analysis using [STRUCTURE] (Pritchard et al. 2000) on several different K values. Then determine a useful K value for the rest of the analysis. 
+3. Use [CLUMPP] in R to estimate admixture coefficients (Leroy et al. 2013; Jakobsson & Rosenberg 2007)
 4. Interpolate admixture coefficients using TESS package in R (Chen et al. 2007)
 5. Visualize the data on a map.
 
-I am still reading through and working through ways to spatially interpolate the data across a map. Current methods do not use spatially/georeferenced data. 
+I am still reading through and working through ways to spatially interpolate the data across a map. Current methods do not use georeferenced data. 
 
 ## Literature Cited
 
@@ -30,7 +30,8 @@ Leroy, T., Lemaire, C., Dunemann, F., & Le Cam, B. (2013). The genetic structure
 Pritchard, J. K., Stephens, M., & Donnelly, P. (2000). Inference of population structure using multilocus genotype data. Genetics, 155(2), 945-959.
 
 
-[CLUMMP]: https://rosenberglab.stanford.edu/clumpp.html
+[CLUMPP]: https://rosenberglab.stanford.edu/clumpp.html
 [ipyrad]: http://ipyrad.readthedocs.io/analysis.html
+[STRUCTURE]: https://web.stanford.edu/group/pritchardlab/structure.html
 
 
